@@ -1,0 +1,92 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+/*== Header selectors ==*/
+
+.header,
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+    background-color: #2c3e50;
+    margin: 0 auto;
+    color: white;
+}
+
+.header {
+    border-radius: 5px;
+}
+
+.menu {
+    padding: 0;
+}
+
+.menu li {
+    list-style-type: none;
+    align-self: center;
+    list-style-position: inside;
+    margin: 0 auto;
+    padding: 10px 10px;
+    width: 100vw;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+
+/*== Main selectors ==*/
+
+.container,
+.container ul,
+.container-search {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.container-search {
+    flex-direction: column;
+
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+}
+
+
+/*== Footer selectors===*/
+
+
+
+
+/*===== Media queries =====*/
+
+@media (min-width: 1000px) {
+    .header,
+    .menu,
+    .menu li,
+    .container,
+    .container-search {
+        max-width: 1000px;
+    }
+}
+
+
+/*===== JS styling =====*/
